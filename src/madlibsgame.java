@@ -4,12 +4,6 @@ public class madlibsgame {
         //MAD LIBS GAME
         Scanner scanner = new Scanner(System.in);
 
-
-
-
-
-
-
         System.out.print("Enter an adjective (description) : ");
         String adjective = scanner.nextLine();
 
@@ -41,11 +35,5 @@ public class madlibsgame {
         System.out.println("After watching the movie i felt " + adjective1);
 
         scanner.close();
-
-
-
-
-
-
     }
 }
